@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+/* Title */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Dropdowns */
+select {
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+/* Count box */
+#deviceCountBox {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #1976D2;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Count box (clean look) */
+#deviceCountBox {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #eaeaea;
+    color: #333;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Button base */
+#liveBtn {
+    padding: 6px 14px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+#liveBtn:hover {
+    background: #f5f5f5;
+    border-color: #999;
+}
+
+/* Live OFF (Normal) */
+.live-off {
+    background: #ffffff;
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+/* Live ON */
+.live-on {
+    background: #f0f0f0;
+    color: #222;
+    border: 1px solid #888;
+}
